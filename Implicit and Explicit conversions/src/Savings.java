@@ -11,4 +11,10 @@ public class Savings {
         interest= deposit * interest_Rate/100;
         total_Amount= deposit + interest;
     }
+    public void SummaryReport() {
+        System.out.println("Deposit: " + deposit);
+        System.out.println("Interest Rate: " + interest_Rate + "%");
+        System.out.println("Interest: " + interest);
+        System.out.println("Total Amount: " + total_Amount);
+    }
 }
