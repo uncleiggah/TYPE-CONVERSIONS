@@ -7,4 +7,8 @@ public class Savings {
         deposit= D;
         interest_Rate= R;
     }
+    public void SavingsInterest () {
+        interest= deposit * interest_Rate/100;
+        total_Amount= deposit + interest;
+    }
 }
