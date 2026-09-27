@@ -8,5 +8,7 @@ public class Main {
         System.out.println("Deposit as a double: "+deposit);
         String doubleAsString = Double.toString(Account.interest);
         System.out.println("Double as text: "+doubleAsString);
+        System.out.println("\n FINAL SUMMARY REPORT");
+        Account.SummaryReport();
     }
 }
